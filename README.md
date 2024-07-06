@@ -1,11 +1,10 @@
 # Plastic Classification Project
 
-This project aims to classify different types of plastic (PET, HDPE, PP) using machine learning techniques.
+This project aims to classify different types of plastic (PET, HDPE, PP) using monochrome camera with CMOS sensor and machine learning techniques.
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Documentation](#documentation)
@@ -15,35 +14,6 @@ This project aims to classify different types of plastic (PET, HDPE, PP) using m
 ## Overview
 
 Describe briefly what the project is about and its objectives. Mention the types of plastics being classified and the techniques or algorithms used.
-
-## Project Structure
-
-plastic-classification-project/
-│
-├── src/
-│ ├── image_capture.py # Script for capturing images
-│ ├── preprocessing.py # Script for preprocessing images
-│ ├── classification.py # Script for classification
-│
-├── docs/
-│ ├── project_description.md # Description of the project
-│ ├── methodology.md # Methodology used in the project
-│ ├── installation_guide.md # Installation guide for setting up the project
-│
-├── data/
-│ ├── raw_images/ # Directory for raw images
-│ └── processed_images/ # Directory for processed images
-│
-├── results/
-│ ├── accuracy_metrics.png # Image showing accuracy metrics
-│ ├── confusion_matrix.png # Image showing confusion matrix
-│
-├── .gitignore # Git ignore file
-├── LICENSE # License file
-└── README.md # README file for the project
-
-
-Describe the structure of your project and briefly explain the purpose of each directory and key files.
 
 ## Installation
 
