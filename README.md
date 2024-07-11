@@ -1,43 +1,47 @@
 # Plastic Classification Project
 
-This project aims to classify different types of plastic (PET, HDPE, PP) using monochrome camera with CMOS sensor and machine learning techniques.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Documentation](#documentation)
-- [Results](#results)
-- [License](#license)
+This repository contains code and documentation for a plastic classification project using the Alvium 1800 U-501 NIR camera and a motorized filter wheel from Thorlabs.
 
 ## Overview
 
-Describe briefly what the project is about and its objectives. Mention the types of plastics being classified and the techniques or algorithms used.
+The project aims to classify different types of plastic using NIR imaging and machine learning techniques. NIR (Near Infrared) imaging is used for its capability to differentiate between various types of plastics based on their spectral responses.
 
-## Installation
+## Components
 
-Provide instructions on how to install and set up the environment for running your project. Include dependencies, if any, that need to be installed.
+### Hardware:
+- Alvium 1800 U-501 NIR Camera
+- Motorized filter wheel from Thorlabs
 
-### Hardware Requirements
+### Software:
+- Python for image acquisition and processing
+- Machine Learning libraries (e.g., TensorFlow, Scikit-learn) for classification
+- Libraries for camera interfacing (e.g., Alvium SDK, Thorlabs SDK)
 
-- Alvium 1800 U-501 NIR Camera: [Allied Vision](https://www.alliedvision.com/en/products/alvium-configurator/alvium-1800-u/501-nir/)
-- Motorized Filter Wheel: [Thorlabs](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=988)
-- Halogen Lamp: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=7541
+## Project Structure
+
+The repository is structured as follows:
+
+- `data/`: Contains sample datasets and collected images.
+- `scripts/`: Python scripts for image acquisition, preprocessing, and classification.
+- `docs/`: Documentation files, including datasheets and project reports.
+- `models/`: Trained machine learning models for plastic classification.
 
 ## Usage
 
-Explain how to use your project. Provide examples of commands or scripts to run for capturing, preprocessing, and classifying images.
+1. **Setup**: Install necessary Python libraries and SDKs for the camera and filter wheel.
+   
+2. **Data Collection**: Use scripts in `scripts/` to acquire NIR images of different plastic types.
 
-## Documentation
+3. **Preprocessing**: Implement preprocessing techniques to enhance image quality and extract relevant features.
 
-Refer to detailed documentation files in the `docs/` directory for more information about the project description, methodology, and installation guide.
+4. **Training**: Train machine learning models using extracted features and labeled data.
 
-## Results
+5. **Classification**: Deploy trained models to classify new plastic samples based on NIR images.
 
-Showcase the results of your project, such as accuracy metrics and confusion matrices, located in the `results/` directory.
+## Contributing
+
+Contributions to improve this project are welcome! Please fork the repository and submit pull requests with your enhancements.
 
 ## License
 
-Specify the license under which your project is distributed.
-
+This project is licensed under the [MIT License](LICENSE).
