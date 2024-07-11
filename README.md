@@ -30,14 +30,15 @@ The repository is structured as follows:
 ## Usage
 
 1. **Setup**: Install necessary Python libraries and SDKs for the camera and filter wheel.
-   ![System](results/system.PNG) ![System Actual](results/system_actual.PNG)
-2. **Data Collection**: Use scripts in `scripts/` to acquire NIR images of different plastic types.
+   ![System](results/system.PNG)
+   ![System Actual](results/system_actual.PNG)
+3. **Data Collection**: Use scripts in `scripts/` to acquire NIR images of different plastic types.
    ![Data](results/image_per_wavelength.PNG)
-3. **Preprocessing**: Implement preprocessing techniques to enhance image quality and extract relevant features.
+4. **Preprocessing**: Implement preprocessing techniques to enhance image quality and extract relevant features.
    ![Image Extraction](results/image_extract.PNG) ![Image Intensity](results/image_intensity.PNG)
-4. **Training**: Train machine learning models using extracted features and labeled data.
+5. **Training**: Train machine learning models using extracted features and labeled data.
    ![Training Accuracy](results/training_accuracy.PNG) ![Training Loss](results/training_loss.PNG)
-5. **Classification**: Deploy trained models to classify new plastic samples based on NIR images.
+6. **Classification**: Deploy trained models to classify new plastic samples based on NIR images.
    ![Confusion Matrix](results/confusion_matrix.PNG)
 ## Contributing
 
