@@ -48,7 +48,3 @@ The repository is structured as follows:
 ## Contributing
 
 Contributions to improve this project are welcome! Please fork the repository and submit pull requests with your enhancements.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
