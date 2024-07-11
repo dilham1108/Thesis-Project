@@ -1,4 +1,4 @@
-# Plastic Classification Project
+# Plastic Waste Classification System using Multispectral Imaging and Artificial Neural Network
 
 This repository contains code and documentation for a plastic classification project using the Alvium 1800 U-501 NIR camera and a motorized filter wheel from Thorlabs.
 
