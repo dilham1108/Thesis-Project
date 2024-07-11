@@ -23,6 +23,7 @@ Provide instructions on how to install and set up the environment for running yo
 
 - Alvium 1800 U-501 NIR Camera: [Allied Vision](https://www.alliedvision.com/en/products/alvium-configurator/alvium-1800-u/501-nir/)
 - Motorized Filter Wheel: [Thorlabs](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=988)
+- Halogen Lamp: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=7541
 
 ## Usage
 
